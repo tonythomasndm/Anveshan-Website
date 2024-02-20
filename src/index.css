@@ -10,14 +10,13 @@
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
-  background-color: black;
   color: #fff;
 }
 
 @layer components {
   .max-container {
     max-width: 1440px;
-
+    margin:0;
   }
 
   .input {
@@ -58,6 +57,7 @@
     @apply font-montserrat text-slate-gray text-lg leading-7;
   }
   .heading{
-    
+    @apply text-6xl m-6 font-bold max-sm:text-4xl padding-b pt-0
   }
+  
 }

@@ -1,3 +1,5 @@
+import LocomotiveScroll from 'locomotive-scroll';
+import BannerComponent from './sections/Slider';
 import{
   Navbar,
   Hero,
@@ -9,24 +11,28 @@ import{
 } from './sections';
 
 const App= () =>(
-  <main className="relative bg-black">
+  <main className="relative">
+    <section className='bg-black'>
     <Navbar/>
-    <section className="xl:padding-l wide:padding-r padding-b">
+    </section>
+    
+    <section className="xl:padding-l wide:padding-r padding-b  bg-black">
     <Hero/>
     </section>
-    <section className="padding">
+    <BannerComponent/>
+    <section className="padding  bg-black">
     <AboutUs/>
     </section>
-    <section className='padding'>
+    <section className='padding  bg-black'>
     <Timeline/>
     </section>
-    <section className='w-full py-16 sm:py-32 padding-x'>
+    <section className='w-full py-16 sm:py-32 padding-x  bg-black'>
     <Collaborations/>
     </section>
-    <section className='padding'>
+    <section className='padding bg-black'>
     <MeetTheTeam/>
     </section>
-    <section className='pb-8 padding-x padding-t'>
+    <section className='pb-8 bg-[#191919] padding-x padding-t'>
     <Footer/>
     </section>
     
@@ -60,6 +66,7 @@ export default App;
 
 
 // import * as React from "react";
+
 
 // const App= () =>{
 //   return (

@@ -1,12 +1,13 @@
 const AboutUs = () => {
     return (
-        <section id="about" className="flex flex-col justify-center items-center lg:flex-row lg:justify-center lg:items-start mr-35 ml-35 mt-10">
-            <div className="flex flex-col p-10 justify-center mt-10 mb-20 ml-40 mr-40 border-2 border-white rounded-lg shadow-white-shadow bg-[#C2C2C2] bg-opacity-2">
-                <h1 className="text-4xl lg:text-6xl m-6 bg-[#C2C2C2] bg-opacity-2 mb-30">&lt;AboutUs&gt;</h1>
-                <p className="text-lg lg:text-xl bg-[#C2C2C2] bg-opacity-2 mt-20">Anveshan, the premier hackathon organized by IIIT-Delhi's five
+        <section id="about" className="flex justify-center items-center flex-row lg:justify-center w-full lg:items-start">
+            <div className="flex flex-col items-start justify-center flex-1 w-full padding-x padding-y bg-[#050505] shadow-lg rounded-3xl min-h-[60%] m-20 sm:m-10 border-2 border-white">
+                <h1 className="heading">&lt;AboutUs&gt;</h1>
+                <p className='font-montserrat text-slate-gray text-lg leading-8 mt-6 mb-14'>
+                    Anveshan, the premier hackathon organized by IIIT-Delhi's five
                     esteemed research centers, invites students to embark on a
-                    journey of innovation and problem-solving from January 6-8,
-                    2023. This student-driven event offers a platform to tackle
+                    journey of innovation and problem-solving from March 7-9,
+                    2024. This student-driven event offers a platform to tackle
                     real-life challenges across various domains, fostering a
                     culture of creativity and collaboration. With the guidance and
                     mentorship provided by experienced members of the research
@@ -26,3 +27,5 @@ const AboutUs = () => {
 }
 
 export default AboutUs;
+
+// done
