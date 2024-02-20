@@ -11,12 +11,25 @@ import{
 const App= () =>(
   <main className="relative bg-black">
     <Navbar/>
+    <section className="xl:padding-l wide:padding-r padding-b">
     <Hero/>
-    <AboutUs  id="about"/>
-    <Timeline id="timeline"/>
-    <Collaborations id="collaborations"/>
+    </section>
+    <section className="padding">
+    <AboutUs/>
+    </section>
+    <section className='padding'>
+    <Timeline/>
+    </section>
+    <section className='w-full py-16 sm:py-32 padding-x'>
+    <Collaborations/>
+    </section>
+    <section className='padding'>
     <MeetTheTeam/>
-    <Footer id="contact-us"/>
+    </section>
+    <section className='pb-8 padding-x padding-t'>
+    <Footer/>
+    </section>
+    
   </main>
 )
 export default App;

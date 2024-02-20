@@ -1,4 +1,6 @@
 
+const images=['/assets/Aarushi.png', '/assets/Akshaya.png', '/assets/Animish.png', '/assets/Tony.png']
+
 const MeetTheTeam = () => {
     return (
         <section className="flex flex-col justify-center w-full min-h-screen gap-10 max-container">

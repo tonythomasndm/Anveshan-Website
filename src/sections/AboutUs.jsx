@@ -1,6 +1,6 @@
 const AboutUs = () => {
     return (
-        <section className="flex flex-col justify-center items-center lg:flex-row lg:justify-center lg:items-start mr-35 ml-35 mt-10">
+        <section id="about" className="flex flex-col justify-center items-center lg:flex-row lg:justify-center lg:items-start mr-35 ml-35 mt-10">
             <div className="flex flex-col p-10 justify-center mt-10 mb-20 ml-40 mr-40 border-2 border-white rounded-lg shadow-white-shadow bg-[#C2C2C2] bg-opacity-2">
                 <h1 className="text-4xl lg:text-6xl m-6 bg-[#C2C2C2] bg-opacity-2 mb-30">&lt;AboutUs&gt;</h1>
                 <p className="text-lg lg:text-xl bg-[#C2C2C2] bg-opacity-2 mt-20">Anveshan, the premier hackathon organized by IIIT-Delhi's five
