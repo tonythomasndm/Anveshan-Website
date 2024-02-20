@@ -20,8 +20,8 @@ const BannerComponent = () => {
     }, [currentPos]);
 
     return (
-        <div className="flex space-x-8 text-2xl bg-black font-extrabold">
-            <h3 className="banner_line" id="seo" style={{ transform: `translateX(calc(60vw + ${currentPos / 3}px))` }}>
+        <div className="flex space-x-8 text-2xl bg-black font-extrabold overflow-hidden">
+            <h3 className="banner_line translate-x-[60vw]" id="seo" style={{ transform: `translateX(calc(${currentPos / 3}px))` }}>
                 <div className="flex items-end space-x-7">
                     <span className='bg-black'>&lt;section&gt; &lt;/section&gt;  &lt;div&gt; &lt;/div&gt; &lt;h1&gt; &lt;/h1&gt; &lt;article&gt;&lt;/article&gt;&lt;section&gt; &lt;/section&gt;  &lt;div&gt; &lt;/div&gt; &lt;h1&gt; &lt;/h1&gt; &lt;article&gt;&lt;/article&gt;&lt;</span>
                 </div>
