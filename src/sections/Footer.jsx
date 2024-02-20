@@ -12,7 +12,7 @@ const Footer = () => {
                     </div>
 
                     <div className="flex flex-col flex-wrap justify-center">
-                        <h4>
+                        <h4 className="font-semibold">
                             SOCIALS
                         </h4>
                         <ul>
@@ -24,7 +24,7 @@ const Footer = () => {
                     </div >
                     
                     <div className="flex flex-col flex-wrap ">
-                        <h4>CONTACT US</h4>
+                        <h4 className="font-semibold">CONTACT US</h4>
 
                         <a href="mailto:Anveshan@iiitd.ac.in" target="_blank"><p className="text-white">anveshan@iiitd.ac.in</p></a>
 

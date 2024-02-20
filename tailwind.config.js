@@ -7,5 +7,18 @@ export default {
   theme: {
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    function ({ addUtilities }) {
+      const newUtilities = {
+        '.text-transparent': {
+          color: 'transparent',
+        },
+        '.text-stroke': {
+          '-webkit-text-stroke-width': '1px',
+          '-webkit-text-stroke-color': '#fff',
+        },
+      }
+      addUtilities(newUtilities)
+    }
+  ],
 }

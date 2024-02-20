@@ -1,5 +1,8 @@
+import React, { useState, useEffect } from 'react';
 
 const Hero = () => {
+   
+
     return (
         <section className="flex flex-col justify-center w-full min-h-screen ">
             <div className="">

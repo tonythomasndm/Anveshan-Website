@@ -2,7 +2,7 @@ const AboutUs = () => {
     return (
         <section id="about" className="flex justify-center items-center flex-row lg:justify-center w-full lg:items-start">
             <div className="flex flex-col items-start justify-center flex-1 w-full padding-x padding-y bg-[#050505] shadow-lg rounded-3xl min-h-[60%] m-20 sm:m-10 border-2 border-white">
-                <h1 className="heading">&lt;AboutUs&gt;</h1>
+                <h1 className="heading text-transparent text-stroke">&lt;AboutUs&gt;</h1>
                 <p className='font-montserrat text-slate-gray text-lg leading-8 mt-6 mb-14'>
                     Anveshan, the premier hackathon organized by IIIT-Delhi's five
                     esteemed research centers, invites students to embark on a
