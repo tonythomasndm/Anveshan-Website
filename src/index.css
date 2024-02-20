@@ -22,6 +22,12 @@
   .input {
     @apply sm:flex-1 max-sm:w-full text-base leading-normal text-slate-gray pl-5 max-sm:p-5 outline-none sm:border-none border max-sm:border-slate-gray max-sm:rounded-full;
   }
+
+  .button{
+    @apply flex items-center justify-center gap-2 w-full py-4 text-lg leading-none font-[500]  rounded-xl px-7 min-w-[300px] max-w-[400px] bg-[#0D51D5] text-white
+  }
+
+  
 }
 
 @layer utilities {
@@ -57,7 +63,8 @@
     @apply font-montserrat text-slate-gray text-lg leading-7;
   }
   .heading{
-    @apply text-6xl m-6 font-bold max-sm:text-4xl padding-b pt-0
+    @apply text-6xl m-6 font-extrabold max-sm:text-4xl padding-b pt-0 text-transparent text-stroke
   }
+  
   
 }

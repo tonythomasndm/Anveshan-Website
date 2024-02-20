@@ -1,18 +1,18 @@
 const Footer = () => {
     return (
-        <footer id="contact-us" className="flex flex-col justify-center w-full gap-10 xl:flex-row max-container">
-            <div className="flex flex-col flex-wrap items-center justify-center w-full  gap-1 ">
+        <footer id="contact-us" className="flex flex-col justify-center w-full max-container">
+            <div className="flex flex-col flex-wrap items-center justify-center w-full">
 
                 <div className="flex flex-row flex-wrap justify-between w-full gap-1 p-10 max-md:flex-row max-md:gap-4">
 
                     <div className="flex flex-col flex-wrap ">
-                        <h2 className="text-2xl font-semibold tracking-wide text-white mt-4">Anveshan 3.0</h2>
-                        <p clasName>IIIT Delhi, Okhla Industrial,Phase-III, New Delhi-110020</p>
+                        <h2 className="text-4xl max-sm:text-2xl font-semibold tracking-wide text-white mt-4 pb-3">Anveshan 3.0</h2>
+                        <p clasName="text-2xl">IIIT Delhi, Okhla Industrial,Phase-III, New Delhi-110020</p>
 
                     </div>
 
                     <div className="flex flex-col flex-wrap justify-center">
-                        <h4>
+                        <h4 className="font-semibold">
                             SOCIALS
                         </h4>
                         <ul>
@@ -24,7 +24,7 @@ const Footer = () => {
                     </div >
                     
                     <div className="flex flex-col flex-wrap ">
-                        <h4>CONTACT US</h4>
+                        <h4 className="font-semibold">CONTACT US</h4>
 
                         <a href="mailto:Anveshan@iiitd.ac.in" target="_blank"><p className="text-white">anveshan@iiitd.ac.in</p></a>
 
@@ -41,3 +41,5 @@ const Footer = () => {
     )
 }
 export default Footer;
+
+//done

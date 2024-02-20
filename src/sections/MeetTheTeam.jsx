@@ -1,5 +1,5 @@
 
-const images=['/assets/Aarushi.png', '/assets/Akshaya.png', '/assets/Animish.png', '/assets/Tony.png']
+const images=['/assets/Aarushi.png','/assets/AdarshP.png', '/assets/Akshaya.png', '/assets/Animish.png','/assets/Arpan.png', '/assets/Tony.png']
 
 const MeetTheTeam = () => {
     return (
@@ -10,6 +10,7 @@ const MeetTheTeam = () => {
                 <img src={image} className="w-72" alt="Image not found" />
             </div>)}
         </div>
+        
     </section>
     )
 }
