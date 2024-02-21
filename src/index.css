@@ -10,6 +10,7 @@
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
+  
   color: #fff;
 }
 
@@ -24,7 +25,7 @@
   }
 
   .button{
-    @apply flex items-center justify-center gap-2 w-full py-4 text-lg leading-none font-[500]  rounded-xl px-7 min-w-[300px] max-w-[400px] bg-[#0D51D5] text-white
+    @apply flex items-center justify-center gap-2 py-4 text-lg leading-none font-[500]  rounded-xl
   }
 
   
@@ -65,5 +66,54 @@
   .heading{
     @apply text-6xl m-6 font-extrabold max-sm:text-4xl padding-b pt-0 text-transparent text-stroke
   }
-  
+  .banner_line {
+    position: relative;
+    padding: 0 2rem;
+    line-height: var(--lineheight);
+    
+}
+.banner_line::before,
+.banner_line::after {
+    color:#000;
+    position: absolute;
+    top: 0;
+    white-space: nowrap;
+    -webkit-transition: all 3s;
+    transition: all 0.5s;
+    z-index: -1;
+    pointer-events: none;
+    background-color: white;
+}
+.banner_line::after {
+    left: 100%;
+}
+.banner_line::before {
+    right: 100%;
+}
+.banner_line {
+    position: relative;
+    line-height: var(--lineheight);
+    @apply text-zinc-800;
+}
+.banner_line:hover:before {
+    color: #000;
+}
+.banner_line:hover:after {
+    color: #000;
+}
+  @keyframes floating {
+    0% {
+        transform: translate(0, 0px) rotate(-1deg);
+    }
+    50% {
+        transform: translate(0, -15px) rotate(3deg);
+    }
+    100% {
+        transform: translate(0, 0px) rotate(-1deg);
+    }
+}
+h3::before,
+    h3::after {
+        content: "<section><section><div></div><img/><div></div><h1></h1><article></article><section></section><div></div><h1></h1><article></article>";
+    }
 }

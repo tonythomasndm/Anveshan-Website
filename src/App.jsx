@@ -11,7 +11,7 @@ import{
 } from './sections';
 
 const App= () =>(
-  <main className="relative">
+  <main className="relative overflow-x-hidden">
     <section className='bg-black'>
     <Navbar/>
     </section>
