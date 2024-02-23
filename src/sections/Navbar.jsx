@@ -1,4 +1,5 @@
 
+import Anveshan_guidelines from '../../public/assets/Overview Anveshan 3.0 at IIIT-Delhi.pdf';
 
 const Navbar = () =>{
     return (
@@ -8,6 +9,8 @@ const Navbar = () =>{
                 <a href="#timeline"><h1>Timeline</h1></a>
                 <a href="#collaborations"><h1>Collaborations</h1></a>
                 <a href="#contact-us"><h1>Contact Us</h1></a>
+                <a href={Anveshan_guidelines} download="anveshan_guidelines"><h1>Guidelines</h1></a>
+                
             </nav>
         </header>
     )
