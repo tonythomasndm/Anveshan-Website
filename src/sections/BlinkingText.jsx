@@ -13,7 +13,7 @@ const BlinkingText = () => {
 
   return (
     <div className="text-xl font-semibold">
-      <span className={` border p-2 rounded-2xl border-spacing-3 text-${isVisible ? 'black' : 'white'} bg-${isVisible ? 'white' : 'red-500'}`}>Registrations open till 28th February 2024</span>
+      <span className={` border p-2 text-lg rounded-2xl border-spacing-3 text-${isVisible ? 'black' : 'white'} bg-${isVisible ? 'white' : 'red-500'}`}>Registrations open till 7 March, 2024 6pm</span>
       
     </div>
   );

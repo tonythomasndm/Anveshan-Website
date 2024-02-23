@@ -8,6 +8,7 @@ const Navbar = () =>{
                 <a href="#timeline"><h1>Timeline</h1></a>
                 <a href="#collaborations"><h1>Collaborations</h1></a>
                 <a href="#contact-us"><h1>Contact Us</h1></a>
+                <a href="https://iiitd.ac.in/anveshan/" target="_blank"><h1>Anveshan 2.0</h1></a>
             </nav>
         </header>
     )
