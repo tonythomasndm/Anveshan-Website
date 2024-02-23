@@ -11,24 +11,27 @@ import{
 } from './sections';
 
 const App= () =>(
-  <main className="relative">
+  <main className="relative overflow-x-hidden">
     <section className='bg-black'>
     <Navbar/>
     </section>
     
-    <section className="xl:padding-l wide:padding-r padding-b  bg-black">
+    <section className="xl:padding-l wide:padding-r pt-10 max-sm:pt-5  bg-black">
     <Hero/>
     </section>
     <BannerComponent/>
     <section className="padding  bg-black">
     <AboutUs/>
     </section>
+    <BannerComponent/>
     <section className='padding  bg-black'>
     <Timeline/>
     </section>
+    <BannerComponent/>
     <section className='w-full py-16 sm:py-32 padding-x  bg-black'>
     <Collaborations/>
     </section>
+    <BannerComponent/>
     <section className='padding bg-black'>
     <MeetTheTeam/>
     </section>

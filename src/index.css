@@ -10,6 +10,7 @@
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
+  
   color: #fff;
 }
 
@@ -22,6 +23,12 @@
   .input {
     @apply sm:flex-1 max-sm:w-full text-base leading-normal text-slate-gray pl-5 max-sm:p-5 outline-none sm:border-none border max-sm:border-slate-gray max-sm:rounded-full;
   }
+
+  .button{
+    @apply flex items-center justify-center gap-2 py-4 text-lg leading-none font-[500]  rounded-xl
+  }
+
+  
 }
 
 @layer utilities {
@@ -57,7 +64,56 @@
     @apply font-montserrat text-slate-gray text-lg leading-7;
   }
   .heading{
-    @apply text-6xl m-6 font-bold max-sm:text-4xl padding-b pt-0
+    @apply text-6xl m-6 font-extrabold max-sm:text-4xl padding-b pt-0 text-transparent text-stroke
   }
-  
+  .banner_line {
+    position: relative;
+    padding: 0 2rem;
+    line-height: var(--lineheight);
+    
+}
+.banner_line::before,
+.banner_line::after {
+    color:#000;
+    position: absolute;
+    top: 0;
+    white-space: nowrap;
+    -webkit-transition: all 3s;
+    transition: all 0.5s;
+    z-index: -1;
+    pointer-events: none;
+    background-color: white;
+}
+.banner_line::after {
+    left: 100%;
+}
+.banner_line::before {
+    right: 100%;
+}
+.banner_line {
+    position: relative;
+    line-height: var(--lineheight);
+    @apply text-zinc-800;
+}
+.banner_line:hover:before {
+    color: #000;
+}
+.banner_line:hover:after {
+    color: #000;
+}
+  @keyframes floating {
+    0% {
+        transform: translate(0, 0px) rotate(-1deg);
+    }
+    50% {
+        transform: translate(0, -15px) rotate(3deg);
+    }
+    100% {
+        transform: translate(0, 0px) rotate(-1deg);
+    }
+}
+h3::before,
+    h3::after {
+        content: "<section><section><div></div><img/><div></div><h1></h1><article></article><section></section><div></div><h1></h1><article></article>";
+    }
 }

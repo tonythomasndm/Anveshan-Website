@@ -28,6 +28,7 @@ const Timeline = () =>{
             <h1 className='heading text-transparent text-stroke'>&lt;Timeline&gt;</h1>
                 <img src={imageSrc} className="" alt="" />
         </section>
-    )
+    );
 }
+
 export default Timeline;

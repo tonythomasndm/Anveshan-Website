@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-const images = ['/assets/cdnm-asset.png', '/assets/cipd-asset.png', '/assets/coehe-asset.png', '/assets/hcd-asset.png', '/assets/iiitd-asset.png']
+const images = ['/assets/cdnm-asset.png', '/assets/cipd-asset.png', '/assets/coehe-asset.png', '/assets/cqt-asset.png','/assets/cai-asset.png']
 
 const Collaborations = () =>{
     return (
